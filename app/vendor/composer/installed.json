@@ -1,0 +1,137 @@
+{
+    "packages": [
+        {
+            "name": "amphp/amp",
+            "version": "v3.x-dev",
+            "version_normalized": "3.9999999.9999999.9999999-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/amphp/amp.git",
+                "reference": "f20f886df27526d3bf68d4ab9f32f282060c0159"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/amphp/amp/zipball/f20f886df27526d3bf68d4ab9f32f282060c0159",
+                "reference": "f20f886df27526d3bf68d4ab9f32f282060c0159",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8"
+            },
+            "require-dev": {
+                "amphp/php-cs-fixer-config": "dev-master",
+                "amphp/phpunit-util": "^2-dev",
+                "ext-json": "*",
+                "jetbrains/phpstorm-stubs": "^2019.3",
+                "phpunit/phpunit": "^9",
+                "psalm/phar": "^3.11@dev"
+            },
+            "time": "2021-06-30T19:54:40+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Amp\\": "lib"
+                },
+                "files": [
+                    "lib/functions.php",
+                    "lib/Internal/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@php.net"
+                },
+                {
+                    "name": "Aaron Piotrowski",
+                    "email": "aaron@trowski.com"
+                },
+                {
+                    "name": "Bob Weinand",
+                    "email": "bobwei9@hotmail.com"
+                },
+                {
+                    "name": "Niklas Keller",
+                    "email": "me@kelunik.com"
+                }
+            ],
+            "description": "A non-blocking concurrency framework for PHP applications.",
+            "homepage": "http://amphp.org/amp",
+            "keywords": [
+                "async",
+                "asynchronous",
+                "awaitable",
+                "concurrency",
+                "event",
+                "event-loop",
+                "future",
+                "non-blocking",
+                "promise"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/amphp",
+                "issues": "https://github.com/amphp/amp/issues",
+                "source": "https://github.com/amphp/amp/tree/v3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/amphp",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../amphp/amp"
+        },
+        {
+            "name": "vladimir163/lead-generator",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vladimir163/lead-generator.git",
+                "reference": "9a9992de6cf66c3fd4ac3b22688763f8dee5ab72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vladimir163/lead-generator/zipball/9a9992de6cf66c3fd4ac3b22688763f8dee5ab72",
+                "reference": "9a9992de6cf66c3fd4ac3b22688763f8dee5ab72",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7"
+            },
+            "time": "2020-07-30T07:43:33+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "LeadGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Vladimir Samuylov",
+                    "email": "vladimir@samujlov.ru"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/vladimir163/lead-generator/issues",
+                "source": "https://github.com/vladimir163/lead-generator/tree/master"
+            },
+            "install-path": "../vladimir163/lead-generator"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
