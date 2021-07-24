@@ -3,9 +3,8 @@
     "description": "app",
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "dev",
     "require": {
-        "amphp/amp": "v3.x-dev",
+        "amphp/amp": "^2.6",
         "vladimir163/lead-generator": "dev-master"
     },
     "autoload": {
