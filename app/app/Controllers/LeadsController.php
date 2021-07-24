@@ -29,8 +29,7 @@ class LeadsController
      */
     public function createLeads (): bool
     {
-//        $this->leadsGenerator->generateLeads(10000, function (Lead $lead) {
-            $this->leadsGenerator->generateLeadsWithFakes(10000, function (Lead $lead) {
+        $this->leadsGenerator->generateLeads(10000, function (Lead $lead) {
             if (in_array($lead->categoryName, LeadsInterface::VALID_TYPES_OF_LEADS)) {
                 array_push($this->validLeads, $lead);
             } else {
