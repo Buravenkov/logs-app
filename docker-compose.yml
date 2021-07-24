@@ -11,3 +11,10 @@ services:
     image: php:fpm
     volumes:
       - ./app:/app
+  composer:
+      image: composer:latest
+      volumes:
+        - ./app:/app/
+      entrypoint:
+        - composer
+        - update
